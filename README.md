@@ -30,10 +30,28 @@ The font is installed and used based on proven CSS standards:
 ```css
 @font-face {
   font-family: 'AvioType';
-  src: url( './AvioType-Regular.woff2' ) format( 'woff2' );
+  src: url( 'AvioType.eot' );
+  src: url( 'AvioType.eot?#iefix' ) format( 'embedded-opentype' ),
+  url( 'AvioType.woff2' ) format( 'woff2' ),
+  url( 'AvioType.woff' ) format( 'woff' ),
+  url( 'AvioType.ttf' ) format( 'truetype' ),
+  url( 'AvioType.svg#uxfonteditor' ) format( 'svg' );
+}
+
+.icon {
+  speak: none;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  font-family: 'AvioType' !important;
   font-weight: normal;
   font-style: normal;
-  font-display: block;
+  font-variant: normal;
+  font-feature-settings: 'kern';
+  font-variant-ligatures: common-ligatures;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 ```
 
