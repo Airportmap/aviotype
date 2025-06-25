@@ -1,0 +1,41 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 30px 100px;
+    font: 14px / 1.5 Tahoma, Arial, sans-serif;
+}
+
+main h1 {
+    margin: 0 0 30px;
+    padding-bottom: 12px;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 150px;
+    text-align: center
+}
+
+ul .icon {
+    font-size: 64px;
+    line-height: 100px;
+    margin: 10px 0;
+}
+
+ul code {
+    display: block;
+    color: green;
+    font-weight: 700;
+}
