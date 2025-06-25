@@ -56,6 +56,8 @@ The font is installed and used based on proven CSS standards:
 }
 ```
 
+A live preview of all icons is available at [GitHub pages](https://Airportmap.github.io/aviotype).
+
 ---
 
 **© MIT License – 2025 Paul Köhler ([komed3](https://github.com/komed3))**
