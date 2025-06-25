@@ -30,13 +30,13 @@ The font is installed and used based on proven CSS standards:
 ```css
 @font-face {
   font-family: 'AvioType';
-  src: url( 'AvioType-Regular.eot' );
-  src: url( 'AvioType-Regular.eot?#iefix' ) format( 'embedded-opentype' ),
-  url( 'AvioType-Regular.woff2' ) format( 'woff2' ),
-  url( 'AvioType-Regular.woff' ) format( 'woff' ),
-  url( 'AvioType-Regular.ttf' ) format( 'truetype' ),
-  url( 'AvioType-Regular.otf' ) format( 'opentype' ),
-  url( 'AvioType-Regular.svg#uxfonteditor' ) format( 'svg' );
+  src: url( dist/AvioType-Regular.eot );
+  src: url( dist/AvioType-Regular.eot?#iefix ) format( 'embedded-opentype' ),
+  url( dist/AvioType-Regular.woff2 ) format( 'woff2' ),
+  url( dist/AvioType-Regular.woff ) format( 'woff' ),
+  url( dist/AvioType-Regular.ttf ) format( 'truetype' ),
+  url( dist/AvioType-Regular.otf ) format( 'opentype' ),
+  url( dist/AvioType-Regular.svg#uxfonteditor ) format( 'svg' );
 }
 
 .icon {
@@ -45,7 +45,7 @@ The font is installed and used based on proven CSS standards:
   text-rendering: optimizeLegibility;
   text-transform: none;
   font-family: 'AvioType' !important;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-variant: normal;
   font-feature-settings: 'kern';
@@ -56,7 +56,13 @@ The font is installed and used based on proven CSS standards:
 }
 ```
 
-A live preview of all icons is available at [GitHub pages](https://Airportmap.github.io/aviotype).
+Use AvioType icons via:
+
+```html
+<i class="icon icon-civil-large"></i>
+```
+
+A live preview of all icons is available at [GitHub pages](https://airportmap.github.io/aviotype).
 
 ---
 

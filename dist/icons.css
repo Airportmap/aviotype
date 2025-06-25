@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'AvioType';
+    src: url( dist/AvioType-Regular.eot );
+    src: url( dist/AvioType-Regular.eot?#iefix ) format( 'embedded-opentype' ),
+    url( dist/AvioType-Regular.woff2 ) format( 'woff2' ),
+    url( dist/AvioType-Regular.woff ) format( 'woff' ),
+    url( dist/AvioType-Regular.ttf ) format( 'truetype' ),
+    url( dist/AvioType-Regular.otf ) format( 'opentype' ),
+    url( dist/AvioType-Regular.svg#uxfonteditor ) format( 'svg' );
+}
+
+.icon {
+    speak: none;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    font-family: 'AvioType' !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-feature-settings: 'kern';
+    font-variant-ligatures: common-ligatures;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airbase:before {
+    content: '\e000';
+}
+
+.icon-altiport:before {
+    content: '\e001';
+}
+
+.icon-balloonport:before {
+    content: '\e002';
+}
+
+.icon-civil-large:before {
+    content: '\e003';
+}
+
+.icon-civil-medium:before {
+    content: '\e004';
+}
+
+.icon-civil-small:before {
+    content: '\e005';
+}
+
+.icon-closed:before {
+    content: '\e006';
+}
+
+.icon-heliport:before {
+    content: '\e007';
+}
+
+.icon-joint-use:before {
+    content: '\e008';
+}
+
+.icon-restricted:before {
+    content: '\e009';
+}
+
+.icon-seabase:before {
+    content: '\e00a';
+}
+
+.icon-dme:before {
+    content: '\e00b';
+}
+
+.icon-ndb:before {
+    content: '\e00c';
+}
+
+.icon-ndb-dme:before {
+    content: '\e00d';
+}
+
+.icon-tacan:before {
+    content: '\e00e';
+}
+
+.icon-vor:before {
+    content: '\e00f';
+}
+
+.icon-vor-dme:before {
+    content: '\e010';
+}
+
+.icon-vortac:before {
+    content: '\e011';
+}
+
+.icon-waypoint:before {
+    content: '\e012';
+}
+
+.icon-cat-ifr:before {
+    content: '\e013';
+}
+
+.icon-cat-lifr:before {
+    content: '\e014';
+}
+
+.icon-cat-mvfr:before {
+    content: '\e015';
+}
+
+.icon-cat-unk:before {
+    content: '\e016';
+}
+
+.icon-cat-vfr:before {
+    content: '\e017';
+}
+
+.icon-direction:before {
+    content: '\e018';
+}
+
+.icon-plane:before {
+    content: '\e019';
+}
+
+.icon-rotorcraft:before {
+    content: '\e01a';
+}
+
+.icon-bft-00:before {
+    content: '\e01b';
+}
+
+.icon-bft-01:before {
+    content: '\e01c';
+}
+
+.icon-bft-02:before {
+    content: '\e01d';
+}
+
+.icon-bft-03:before {
+    content: '\e01e';
+}
+
+.icon-bft-04:before {
+    content: '\e01f';
+}
+
+.icon-bft-05:before {
+    content: '\e020';
+}
+
+.icon-bft-06:before {
+    content: '\e021';
+}
+
+.icon-bft-07:before {
+    content: '\e022';
+}
+
+.icon-bft-08:before {
+    content: '\e023';
+}
+
+.icon-bft-09:before {
+    content: '\e024';
+}
+
+.icon-bft-10:before {
+    content: '\e025';
+}
+
+.icon-bft-11:before {
+    content: '\e026';
+}
+
+.icon-bft-12:before {
+    content: '\e027';
+}
+
+.icon-bft-13:before {
+    content: '\e028';
+}
+
+.icon-bft-14:before {
+    content: '\e029';
+}
+
+.icon-bft-15:before {
+    content: '\e02a';
+}
